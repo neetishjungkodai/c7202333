@@ -1,0 +1,129 @@
+*,html,body{
+  padding: 0;
+  margin: 0;
+}
+html{
+  font-size: 10px;
+  background-color: #a9a9a9;
+}
+
+body{
+  width: 60%;
+  margin: 0 auto;
+}
+
+h1{
+  text-align: center;
+  font-family: 'Sonsie One',cursive;
+  color: white;
+  font-size: 30px;
+  text-shadow: 2px 2px 10px black;
+}
+
+.navigation_menu{
+  margin-top: 30px;
+  width: 100%;
+  background-color:  #ff80ff;
+  height: 80px;
+  display: flex;
+}
+ul{
+  padding: 25px;
+  font-size: 20px;
+  flex: 2;
+}
+
+.navigation_menu li{
+  list-style-type: none;
+  text-decoration: none;
+  display: inline;
+  padding: 30px;
+  flex:5;
+}
+
+.navigation_menu li a{
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  cursor: pointer;
+
+}
+
+.search{
+width: 30%;
+height: 35vh;
+margin-right: 30px;
+margin-top: 19px;
+
+}
+input{
+  height: 33px;
+  font-size: 23px;
+  border: 0;
+  border-color: none;
+}
+
+
+
+input[type="submit"] {
+  margin-left: 10px;
+  background: #333;
+  border: 0;
+  color: white;
+cursor: pointer;
+  width: 20%;
+}
+
+main{
+  height:auto;
+  display: flex;
+  width: 100%;
+  background: white;
+  margin-top: 20px;
+  display: flex;
+}
+
+
+article{
+  flex: 5;
+  float: left;
+  width: 70%;
+}
+article p{
+  font-size: 18px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+article h2,#rel{
+  text-align: center;
+  font-family: 'Sonsie One',cursive;
+  font-size: 20px;
+  font-weight: bold;
+}
+aside {
+  flex: 1;
+  float: right;
+  background-color: #ff80ff;
+}
+
+aside li a{
+  text-decoration: underline;
+  color: blue;
+}
+
+
+h3{
+  font-family: 'Sonsie One',cursive;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+footer{
+  margin-top: 10px;
+  height: 50px;
+  background: white;
+}
+#ending{
+  font-size:20px;
+  padding:15px;
+}
